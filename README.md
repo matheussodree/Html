@@ -1,2 +1,2 @@
-# html-documentation
-html documentation to assist in studies
+# _Html Documentation_
+### Html documentation to assist in studies
