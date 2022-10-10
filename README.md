@@ -28,8 +28,8 @@ left, right, center and justified alignments.
   If the ALIGN parameter is not specified, by default the paragraph will be aligned
 to the left.
 
-  Basic syntax: <P>Text </P>
-Full syntax: <P ALIGN= left | right | center | justify > Text </P>
+  Basic syntax: <P> Text </P>
+  Full syntax: <P ALIGN= left | right | center | justify > Text </P>
 
 ~~~
 
