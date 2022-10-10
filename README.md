@@ -60,10 +60,9 @@ ALIGN= left | center | right COLOR= NOSHADE color>
 </HEAD>
 <BODY>
 <P ALIGN=center>Using P:</P>
-<P> Let's separate this sentence with the
-of paragraph. </P>
-To check the difference.
-<HR ALIGN=center WIDTH=75% SIZE=15 COLOR=blue NOSHADE>
+<P> Let's separate this sentence with the of paragraph. </P>
+  To check the difference.
+** <HR ALIGN=center WIDTH=75% SIZE=15 COLOR=blue NOSHADE> **
 <P ALIGN=center>Using BR:</P>
 <P> Now we separate the lines using <BR>
 the line break markup. <BR>
