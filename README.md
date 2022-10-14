@@ -93,3 +93,34 @@ The main text style commands are:
 -> Pulsing - Causes the text to flash. This effect does not work on everyone the Browsers. Syntax: <BLINK> text </BLINK>;
 
 ~~~
+
+* Headers
+~~~html
+
+Another way to change the font size and apply a bold style to text is to use <H> tags.
+
+The HTML language has six commands, from H1 to H6, which apply a different font size to the text that they may contain.
+
+In addition to modifying the size, the H commands insert blank lines above and below the line of formatted text.
+
+The command H1 has the largest size, while H6 has the smallest font size.
+
+The basic syntax for this command is: <Hn>Text </Hn>.
+Where n is the number from 1 to 6 corresponding to the header size.
+
+The example below allows you to view header sizes.
+Enter it saving as 'cabec.html'.
+<HTML>
+<HEAD>
+<TITLE> Headers </TITLE>
+</HEAD>
+<BODY>
+<H1> Header with size 1 </H1>
+<H2> Header with size 2 </H2>
+<H3> Header with size 3 </H3>
+<H4> Header with size 4 </H4>
+<H5> Header with size 5 </H5>
+<H6> Header with size 6 </H6>
+</BODY>
+</HTML>
+~~~  
