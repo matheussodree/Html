@@ -71,3 +71,25 @@ Did you notice?
 </HTML>
 
 ~~~
+
+* Style Markers
+~~~html
+
+These commands allow the programmer to create a series of effects on the
+text by changing the font shape and size. 
+
+All tags of this type must be specified in pairs, marking the beginning and end of the text to be formatted.
+
+The main text style commands are:
+-> Bold - Applies the bold style. Syntax: <B> text </B>;
+-> Italic - Applies the italic style. Syntax: <I> text </I>;
+-> Underline - Applies the underline style. Syntax: <U>text </U>;
+-> Strong - Similar to bold. Syntax: <STRONG> text </STRONG>;
+-> Typewriter - Makes text evenly spaced. Syntax: <TT> text </TT>;
+-> Big - Enlarges the font and applies the bold style. Syntax: <BIG> text </BIG>;
+-> Small - Reduces the font. Syntax: <SMALL> text </SMALL>;
+-> Superscript - Raises the text and lowers its body. Syntax: <SUP> text </SUP>;
+-> Subscript - Lowers the text and makes its body smaller. Syntax: <SUB> text </SUB>;
+-> Pulsing - Causes the text to flash. This effect does not work on everyone the Browsers. Syntax: <BLINK> text </BLINK>;
+
+~~~
