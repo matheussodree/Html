@@ -149,3 +149,53 @@ Syntax: <CENTER> [Elements to be centered] </CENTER>.
 </BODY>
 </HTML>
 ~~~
+* The FONT marker
+~~~html
+
+The <FONT> and </FONT> tags allow the programmer to modify the font size, type and color of a text.
+
+Its parameters are:
+
+SIZE= number - Specifies the font size to be used and can range from 1 to 7. 
+If a number is specified preceded by plus or minus signs, 
+the default font size (size 3) will be, respectively, increased or decreased by that value.
+So size= 2 and size= -1 have the same practical effect.
+
+FACE= name - Allows you to choose a different font for the text. 
+Various font types can be specified, so that if the system does not have the first option, 
+the second is automatically loaded, and so on.
+One can therefore write: FACE= font1, font2, font3 . 
+In this case, font1 is the programmer's preferred font, 
+font2 is their second choice, and font3 is their last.
+
+COLOR= color - Specifies the color of the text. Its value can be specified
+by the color name in English, in the case of more common colors. 
+However, in the general case, the color specification is done through the RGB (Red-Green-Blue) standard. 
+In this pattern, the color is described by a 6-digit number,
+where the first two correspond to the intensity of the red color, 
+the middle two to the green color and the last two to the blue color. 
+The resulting color will be a combination of these three. 
+The numerical base used for the representation of colors in the RGB standard is hexadecimal, 
+which gives us 256 possibilities of intensity for each basic color (from 0 to 255). 
+It is written: COLOR= rrggbb or COLOR= name .
+
+Basic syntax: <FONT> Text </FONT>.
+Full syntax: <FONT FACE= name SIZE= number COLOR= color >
+Text </FONT>.
+
+<HTML>
+<HEAD>
+<TITLE> Text Colors </TITLE>
+</HEAD>
+<BODY>
+<FONT SIZE= 7 COLOR= 0C01BD >P</FONT>
+<FONT SIZE= 6 COLOR= 655E7D >e</FONT>
+<FONT SIZE= 5 COLOR= A39A4B >t</FONT>
+<FONT SIZE= 4 COLOR= EEF303 >-</FONT>
+<FONT SIZE= 4 COLOR= EEF303 >T</FONT>
+<FONT SIZE= 5 COLOR= A39A4B >e</FONT>
+<FONT SIZE= 6 COLOR= 655E7D >l</FONT>
+<FONT SIZE= 7 COLOR= 0C01BD >e</FONT>
+</BODY>
+</HTML>
+~~~
