@@ -124,3 +124,28 @@ Enter it saving as 'cabec.html'.
 </BODY>
 </HTML>
 ~~~  
+
+* Centralization of texts and other elements
+~~~html
+
+To center a header, paragraph or figure within the width of the page, 
+the <CENTER> and </CENTER> tags surrounding the element to be centered must be used.
+
+Syntax: <CENTER> [Elements to be centered] </CENTER>.
+
+<HTML>
+<HEAD>
+<TITLE> Headers </TITLE>
+</HEAD>
+<BODY>
+<CENTER>
+<H1> Header with size 1 </H1>
+<H2> Header with size 2 </H2>
+<H3> Header with size 3 </H3>
+<H4> Header with size 4 </H4>
+<H5> Header with size 5 </H5>
+<H6> Header with size 6 </H6>
+</CENTER>
+</BODY>
+</HTML>
+~~~
