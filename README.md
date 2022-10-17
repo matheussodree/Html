@@ -199,3 +199,36 @@ Text </FONT>.
 </BODY>
 </HTML>
 ~~~
+
+* The IMG bookmark
+~~~html
+
+The IMG marker inserts an image into the body of the document.
+Its main parameters are:
+SRC= file name or URL - Name or address (URL) of the image to be displayed. This parameter is mandatory.
+
+ALT= Text - Displays the specified text when the Browser does not find the image or when the cursor passes over the figure.
+
+ALIGN= Top | Middle | Bottom - Specifies the alignment of the image relative to the line of text where it is displayed.
+
+ALIGN= Left | Right - Specifies the alignment of the image relative to the side edges of the window.
+
+ISMAP - Determines that the figure is an image map. We will deal with this subject in more detail in one of our next chapters.
+
+WIDTH= "number | number%" - Specifies the display width of the
+image in pixels or in relation to the width of the window, regardless of its original size. When you change the horizontal dimension of the image, the vertical dimension is automatically modified so that the original aspect ratio is maintained.
+
+HEIGHT= number | number% - Specifies the display height of the
+image in pixels or in relation to the width of the window, regardless of its original size. When you change the image's vertical dimension, the horizontal dimension is automatically modified so that the original aspect ratio is maintained. If we want to force a distortion in the original aspect ratio of the image, we have to use the WIDTH and HEIGHT parameters simultaneously.
+
+BORDER= number - Specifies, in pixels, the width of the image's border. The zero value removes the border.
+
+VSPACE= number - Determines, in pixels, the space that should be left blank at the top and bottom of the image.
+HSPACE= number - Determines, in pixels, the space that should be left blank on the sides of the image.
+
+Basic syntax: <IMG SRC= file name or URL >.
+
+Full syntax: <IMG SRC= file name or URL WIDTH= number
+HEIGHT= number BORDER= number ALT= Text
+VSPACE= number HSPACE= number ALIGN= Top | Middle | Bottom | Left | Right >.
+~~~ 
