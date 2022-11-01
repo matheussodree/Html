@@ -232,3 +232,11 @@ Full syntax: <IMG SRC= file name or URL WIDTH= number
 HEIGHT= number BORDER= number ALT= Text
 VSPACE= number HSPACE= number ALIGN= Top | Middle | Bottom | Left | Right >.
 ~~~ 
+
+* Links
+
+~~~html
+
+
+
+~~~
