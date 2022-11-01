@@ -269,7 +269,8 @@ Document 2:
 <BODY>
 <CENTER>
 <H1>Document 2 </H1>
-<P> Did you notice the link working? </P>
+<P> Did you notice the link working? </P> </br>
+ Click <A HREF= links1.html > here </A> to access document 1.
 </CENTER>
 </BODY>
 </HTML>
