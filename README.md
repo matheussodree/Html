@@ -237,6 +237,41 @@ VSPACE= number HSPACE= number ALIGN= Top | Middle | Bottom | Left | Right >.
 
 ~~~html
 
+The <A> and </A> tags can mark text or an image as a hyperlink, 
+as well as create an address to a specific part of a document that will be referred to by a link.
+The main parameters of the <A> command are:
 
+HREF= file name or URL - Specify the URL address to which the link is associated. 
+Can be used for references inside and outside the document.
+
+NAME= name - Specifies the name of the section of a document that is referred 
+to by a hypertext link.
+
+Document 1:
+<HTML>
+<HEAD>
+<TITLE> Links 1 </TITLE>
+</HEAD>
+<BODY>
+<CENTER>
+<H1>Document 1 </H1>
+<BR>
+Click <A HREF= links2.html > here </A> to access document 2.
+</CENTER>
+</BODY>
+</HTML>
+
+Document 2:
+<HTML>
+<HEAD>
+<TITLE> Links 2 </TITLE>
+</HEAD>
+<BODY>
+<CENTER>
+<H1>Document 2 </H1>
+<P> Did you notice the link working? </P>
+</CENTER>
+</BODY>
+</HTML>
 
 ~~~
